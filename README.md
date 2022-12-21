@@ -1,5 +1,5 @@
 # Porpoise: computational analysis and prediction of RNA pseudouridine sites by a stacked machine learning framework.
-## introduction
+## Introduction
 This study proposes a novel bioinformatics approach, termed Porpoise, for accurate identifying RNA pseudouridine sites. Porpoise is developed by comprehensively evaluated 18 popular feature encoding schemes and four types of features, including binary features, pseudo k-tuple composi-tion (PseKNC), nucleotide chemical property (NCP) and position-specific trinucleotide propensity based on single-strand (PSTNPss) are selected and feed into the stacked framework to construct-ing the final meta-learning model.Cross-validation tests on the benchmark dataset and independent tests demonstrate that Porpoise achieved superior predictive performance than state-of-the-art approaches.
 
 This is a repository of codes of Porpoise, an RNA pseudouridine sites predictor. You can use this program and know more about it through our [website]
@@ -27,6 +27,8 @@ The environment on our computer is as follows:
 RNA pseudouridine sites. Mol. Ther. Nucleic Acids 5, e332.)
 
 ## Usage
+
+To use Porpoise, please also download iuse.zip from the Download page of Porpoise webserver (http://web.unimelb-bioinfortools.cloud.edu.au/Porpoise/) and replace the iuse folder for further use. 
 
 The parameters of the model can be passed as arguments to the script. 
 It is possible to see which parameters can be passed by running (from inside Porpoise/):
